@@ -1,0 +1,28 @@
+.navbar-wrapper {
+ display: flex;
+}
+.navbar-wrapper-top {
+    display: flex;
+}
+.navbar-img-logo {
+    width: 50px;
+}
+
+.navbar-search {
+    position: relative;
+}
+
+input[type=text] {
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    /* position: relative; */
+    vertical-align: top;
+    width:85%;
+}
+.navbar-search-contain {
+    /* position: absolute; */
+}
+.navbar-search-image {
+    border-left: 1px solid;
+    position: absolute;
+}
