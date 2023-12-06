@@ -8,8 +8,7 @@ import { IoIosSearch } from "react-icons/io";
 const NavBar = () => {
   return (
     <div className='navbar-wrapper'>
-      <div className='navbar-wrapper-top'>
-        <div className='navbar-logo'>
+      <div className='navbar-logo'>
           <img src={Logo} className='navbar-img-logo'/>
           <a href="">Chính sách quyền riêng tư</a>
           <button>EN</button>
@@ -21,7 +20,6 @@ const NavBar = () => {
             <img src={SearchIcon} className='navbar-search-image' />
           </div>
         </div>
-      </div>
       <div className='navbar-wrapper-navigation'></div>
       
     </div>
